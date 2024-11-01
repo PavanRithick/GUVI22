@@ -1,0 +1,31 @@
+
+
+.feature-card {
+    display: flex;
+    align-items: center; /* Center vertically */
+    margin: 20px 0; /* Space between cards */
+    width: 100%; /* Ensure full width */
+  }
+  
+  .text-content {
+    flex: 1; /* Text takes available space */
+    padding: 20px; /* Optional padding */
+  }
+  
+  .image-content {
+    flex: 1; /* Image takes available space */
+  }
+  
+  .feature-image {
+    max-width: 100%; 
+    height: auto; 
+  }
+  
+  .reverse {
+    flex-direction: row-reverse;   }
+ 
+  .features {
+    display: flex;
+    flex-direction: column; 
+  }
+  
